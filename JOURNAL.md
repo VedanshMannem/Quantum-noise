@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 11/7/2025 - Wired the circuit  
+## 11/7/2025 2:01 PM - Wired the circuit  
 
 Some research + calculations on Zener diodes:
 
@@ -23,4 +23,17 @@ physics:
 Reverse biased diodes usually break, but zener can act as voltage regulators. When the input voltage is close to the voltage its rated for, quantum tunneling happens (zener are doped specifically for thinner barrier and that allows for tunneling)
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIyMiwicHVyIjoiYmxvYl9pZCJ9fQ==--9d0af44fff24e7e2450694034200e8c46c90fe25/image.png)  
+
+## 11/7/2025 2:43 PM - Ordered parts + figured out circuit wiring  
+
+Researched more stuff + ordered parts
+
+Bought the following stuff:
+1. [Zener Diode](https://www.amazon.com/AEDIKO-Value-140pcs-Diodes-Assortment/dp/B0BG829P7F/ref=sr_1_10?crid=2RXG1VDSYLBJH&dib=eyJ2IjoiMSJ9.QuvZqeFyzT6tu4x3VRU9nE7GmwReoMj4pVU80pwOn2ZtSq5HrlHHUqWv8C6Jgan1kRD-rP9ZkJpJNMcQPY0aTLkLS1jEd-cgqUI6eRjCCG3fRkmmJE0DMnhljtPX3-qjYihlv-I2BKlZWiaogNzRf5VjX7NAaO6IjVJiNn4-q_fJu2RknA8HTuB9wgpWnZxGzzJLZW-g9HjDIvQxRm0uYLmU739kvrmMNRjIx0RntEU.ZZa1mZUmgpnRuxndk-BTmx0llKFPpRgktbyRSEYj8Mo&dib_tag=se&keywords=zener%2Bdiode%2B5.1v&qid=1762219359&refinements=p_36%3A500-1500&rnid=2661611011&sprefix=zener%2Bdiode%2B5.1v%2Caps%2C252&sr=8-10&th=1)
+2. [Speaker](https://www.amazon.com/Speaker-Speakers-Compatible-Loudspeaker-Player/dp/B0C49TKSQQ?th=1)
+3. [Amplifier Module](https://www.amazon.com/QEBIDUM-Audio-Amplifier-Module-LM386/dp/B091FN2GBW)
+
+Basically just bought stuff and learned more stuff about how to amplify the sound that the diode creates. 
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIyMywicHVyIjoiYmxvYl9pZCJ9fQ==--41daa645631dfac4cc7494217d662bcba560ffca/image.png)  
 
