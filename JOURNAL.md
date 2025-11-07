@@ -8,21 +8,19 @@
 
 ## 11/7/2025 - Wired the circuit  
 
-Bought the following stuff:
-1. [Zener Diode](https://www.amazon.com/AEDIKO-Value-140pcs-Diodes-Assortment/dp/B0BG829P7F/ref=sr_1_10?crid=2RXG1VDSYLBJH&dib=eyJ2IjoiMSJ9.QuvZqeFyzT6tu4x3VRU9nE7GmwReoMj4pVU80pwOn2ZtSq5HrlHHUqWv8C6Jgan1kRD-rP9ZkJpJNMcQPY0aTLkLS1jEd-cgqUI6eRjCCG3fRkmmJE0DMnhljtPX3-qjYihlv-I2BKlZWiaogNzRf5VjX7NAaO6IjVJiNn4-q_fJu2RknA8HTuB9wgpWnZxGzzJLZW-g9HjDIvQxRm0uYLmU739kvrmMNRjIx0RntEU.ZZa1mZUmgpnRuxndk-BTmx0llKFPpRgktbyRSEYj8Mo&dib_tag=se&keywords=zener%2Bdiode%2B5.1v&qid=1762219359&refinements=p_36%3A500-1500&rnid=2661611011&sprefix=zener%2Bdiode%2B5.1v%2Caps%2C252&sr=8-10&th=1)
-2. [Speaker](https://www.amazon.com/Speaker-Speakers-Compatible-Loudspeaker-Player/dp/B0C49TKSQQ?th=1)
-3. [Amplifier Module](https://www.amazon.com/QEBIDUM-Audio-Amplifier-Module-LM386/dp/B091FN2GBW)
-
+Some research + calculations on Zener diodes:
 
 **What is a Zener diode:**
 A Zener diode is different from a normal diode because of its breakdown voltage when its reversed. There's a Zener breakdown region where when the voltage ran through is really close to the voltage its rated for (Zener diode was rated for 5.1V and ~4.9-5.2V was used), then there are quantum tunneling effects. Zener diodes are doped very specifically to create a thin barrier where quantum tunneling is possible. Physically speaking, the diode was tunneling at the input voltage, and that's what the oscilloscope was picking up, but it was hard to observe because of the background. 
 
-**Description of circuit:**
-A DC power supply was wired to a 5.1V zener diode (with a 220 ohm resistor). The module is separately powered in parallel with the power source, and the input and ground volume source is just wired into the circuit with jumper wires. The speaker was playing background (it continued playing sound even after the zener diode was removed from the circuit), and the oscilloscope was used to measure more minute changes (because the speaker probably couldn't pick up the minute changes in sound compared to the background). The oscilloscope was also picking up lots of background (it was really close to 60Hz), but there were minute changes in what it was picking up, so I _think_ that was the tunneling effect of the zener diode. 
+Found cheap Zener diodes and ran calculations on required voltages:
+- 9V battery (easiest, but there's other stuff)
+- need noise amplifier
+- a speaker to connect (don't have aux cable)
+- required diode: 5.1V zener
 
-To properly extract and hear the sound of the Zener diode, I think it would need a different speaker. Still, because there was some fluctuation in the oscilloscope, that was probably the tunneling effects, and I think the project was a success! I learned a lot about how diodes actually work and some cool quantum physics applications. 
+physics: 
+Reverse biased diodes usually break, but zener can act as voltage regulators. When the input voltage is close to the voltage its rated for, quantum tunneling happens (zener are doped specifically for thinner barrier and that allows for tunneling)
 
-The ordering of the parts, research/calculations, and wiring up the circuit didn't take _too_ long, so I think one journal entry is enough for the scope of this project. Most of it was designing the circuit and making sure all the calculations would check out. The actual experimentation only took about half the time.
-
-![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIxNCwicHVyIjoiYmxvYl9pZCJ9fQ==--ca9aaff092613d883e31f468355d4c6f63340bc2/image.png)  
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIyMiwicHVyIjoiYmxvYl9pZCJ9fQ==--9d0af44fff24e7e2450694034200e8c46c90fe25/image.png)  
 
