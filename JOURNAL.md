@@ -44,6 +44,13 @@ A DC power supply was wired to a 5.1V zener diode (with a 220 ohm resistor). The
 
 To properly extract and hear the sound of the Zener diode, I think it would need a different speaker. Still, because there was some fluctuation in the oscilloscope, that was probably the tunneling effects, and I think the project was a success! I learned a lot about how diodes actually work and some cool quantum physics applications. 
 
+**To wire yourself:**
+Use DC power source (or use various batteries to test stuff between the range)
+Connect the module to the power source in parallel
+Connect the circuit (resistor + diode in reverse - black is cathode, should face the + end)
+The amplifier/speaker should be connected around the diode
+If using oscilloscope, put around resistor
+
 **Little bit about the process:**
 It started with a 9V battery, but I moved to DC power supply because I realized it needed under 5.5V specifically. Also, the plan was to just hear the quantum tunneling, but the change in voltage is too low for the speaker/module to pick up. There is also lots of background, so it was hard to measure the changes effectively (they just mixed with the background). That's when the oscilloscope came in to measure the really minute stuff. Still, the oscilloscope was picking up 60Hz almost exactly from background so that didn't work. However, I'm hypothesizing that the small fluctuations in the frequency are the effects of the quantum tunneling, and physically speaking it has to be happening, so this project was a success.
 
