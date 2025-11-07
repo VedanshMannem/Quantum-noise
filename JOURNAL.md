@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 11/7/2025 2:01 PM - Wired the circuit  
+## 11/7/2025 2:01 PM - Learning + figuring out the circuit  
 
 Some research + calculations on Zener diodes:
 
