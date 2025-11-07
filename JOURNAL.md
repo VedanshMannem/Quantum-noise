@@ -37,3 +37,17 @@ Basically just bought stuff and learned more stuff about how to amplify the soun
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIyMywicHVyIjoiYmxvYl9pZCJ9fQ==--41daa645631dfac4cc7494217d662bcba560ffca/image.png)  
 
+## 11/7/2025 3 PM - Wiring + testing stuff  
+
+**Description of circuit:**
+A DC power supply was wired to a 5.1V zener diode (with a 220 ohm resistor). The module is separately powered in parallel with the power source, and the input and ground volume source is just wired into the circuit with jumper wires. The speaker was playing background (it continued playing sound even after the zener diode was removed from the circuit), and the oscilloscope was used to measure more minute changes (because the speaker probably couldn't pick up the minute changes in sound compared to the background). The oscilloscope was also picking up lots of background (it was really close to 60Hz), but there were minute changes in what it was picking up, so I _think_ that was the tunneling effect of the zener diode. 
+
+To properly extract and hear the sound of the Zener diode, I think it would need a different speaker. Still, because there was some fluctuation in the oscilloscope, that was probably the tunneling effects, and I think the project was a success! I learned a lot about how diodes actually work and some cool quantum physics applications. 
+
+**Little bit about the process:**
+It started with a 9V battery, but I moved to DC power supply because I realized it needed under 5.5V specifically. Also, the plan was to just hear the quantum tunneling, but the change in voltage is too low for the speaker/module to pick up. There is also lots of background, so it was hard to measure the changes effectively (they just mixed with the background). That's when the oscilloscope came in to measure the really minute stuff. Still, the oscilloscope was picking up 60Hz almost exactly from background so that didn't work. However, I'm hypothesizing that the small fluctuations in the frequency are the effects of the quantum tunneling, and physically speaking it has to be happening, so this project was a success.
+
+**Side note**: The ordering of the parts, research/calculations, and wiring up the circuit didn't take _too_ long. I was planning to submit just one journal entry, but split it across 3. Most of the "research" was planning out the wiring of the circuit not just reading, so I included it in the hours.
+
+![Screenshot 2025-11-07 1.44.16 PM](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTIyNiwicHVyIjoiYmxvYl9pZCJ9fQ==--621a9c21b8098e3486d8d2e13a1513e7b75424f8/Screenshot%202025-11-07%201.44.16%20PM.png)  
+
