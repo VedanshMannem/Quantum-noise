@@ -11,11 +11,6 @@ Project setup:
 1) Use a DC power supply and wire that in series with a 5.1V zener diode
 2) Connect the module's power source in parallel to the DC power supply
 3) Plug in a resistor in series with the zener diode
-4) connec the module (or the oscilloscope) in parallel with the zener diode
-
-roughly:
-  DC - Zener - Resistor 
-|    | |     |
-|-M -| | -M- |
+4) connect the module (or the oscilloscope) in parallel with the zener diode
 
 The GND-power and volume gnd are both specificed on the amazon link.
