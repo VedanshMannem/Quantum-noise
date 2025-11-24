@@ -14,3 +14,10 @@ Project setup:
 4) connect the module (or the oscilloscope) in parallel with the zener diode
 
 The GND-power and volume gnd are both specificed on the amazon link.
+
+<img width="1177" height="463" alt="image" src="https://github.com/user-attachments/assets/47a8d861-70dd-4fe1-ac34-a34c83d1f0d9" />
+Note: the J2 and 4-pin connectors combined act as the module (the oscilloscope would replace this component)
+
+Pinout/setting up modules:
+Module: GND-GND-IN-VCC (power ground, sound ground, sound, power)
+Speaker: GND-IN
